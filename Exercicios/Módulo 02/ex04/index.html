@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex04</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+        a {
+            text-decoration: none;
+
+        }
+        a:hover {
+            text-decoration: underline;
+            background-color: brown;
+            color: white;
+            border-radius: 5px;
+        }
+        a:visited {
+            color: blue;
+        }
+        a:active {
+            font-size: 25px;
+        }
+        .anormal::before {
+            content: '-> ';
+        }
+        .anormal::after {
+            content: ' <-';
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Classes/Elementos</h1>
+    <ul>
+        <li><a target="_blank" href="https://www.cursoemvideo.com/">Curso em Vídeo</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Canal do curso em vídeo</a></li>
+        <li><a class="anormal" target="_blank" href="https://tlauncher.org/en/">Site do minecraft oliginal</a></li>
+    </ul>
+</body>
+</html>
