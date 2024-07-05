@@ -63,13 +63,26 @@ section {
 
 .image {
     background-color: rgb(51, 51, 51);
+    background-size: cover;
+    box-shadow: inset 6px 6px 13x 0px black;
+    background-attachment: fixed;
 }
 
 .image > p {
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.481);
     color: white;
     width: 400px;
+    text-shadow: 1px 1px 2px black;
 
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {
